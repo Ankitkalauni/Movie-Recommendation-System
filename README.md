@@ -1,5 +1,7 @@
 # Content-Based Movie Recommendation System
 
+## CHAPTER 1: INTRODUCTION
+
 ### Background:
 As the World Wide Web continues to grow at an exponential rate, the size and complexity of certain data or web site grow along with it. For the users of these websites, it becomes increasingly difficult and time-consuming to find the information they are looking for. To help users find the information that is in accordance with their interests a website can be personalized. Recommender systems can improve a website for individual users by dynamically adding “relevant” information.
 
@@ -49,3 +51,47 @@ The recommendation system filters out the information automatically for the user
 * No hard-coding, the model can predict new movies which are added into the website database
 * Easy to update Recommendation system without taking down the server
 * Add reviews of the new users on the website and Recommendation system
+
+
+## CHAPTER 2: SURVEY OF TECHNOLOGIES
+
+### 2.1 Technologies used in the frontend with all features.
+
+    2.1.1 We have taken HTML, CSS, JavaScript & Bootstrap for the front-end website development.
+    2.1.2 Feature of HTML & CSS
+It is easy to learn and easy to use.
+It is platform-independent.
+Images, videos, and audio can be added to a web page.
+Hypertext can be added to the text.
+It is a markup language.
+CSS allows users to view documents with their own preferred fonts, colors, etc. by specifying them in a user style sheet.
+ 
+     2.1.3 Feature of JavaScript
+Light Weight Scripting language.
+Dynamic Typing.
+Object-oriented programming support.
+Functional Style.
+Platform Independent.
+Prototype-based.
+Interpreted Language.
+ 
+     2.1.4 Feature of Bootstrap.
+Fewer Cross-browser bugs
+A consistent framework that supports major of all browsers and CSS compatibility fixes
+Lightweight and customizable
+Responsive structures and styles
+Several JavaScript plugins using the jQuery
+Good documentation and community support
+Loads of free and professional templates, WordPress themes and plugins
+ 
+### 2.2 Technologies used in the backend with all features.
+    2.2.1 We have taken Flask for framework and Pickle to save trained machine learning model
+    2.2.2 Features of Flask.
+It is very flexible and easy to learn
+It provides unit testing through its integrated support, built-in development server, fast debugger and restful request dispatching
+It is a lightweight framework so it is fast.
+    2.2.3 Features of Pickel.
+Pickle is the standard way of serializing objects in Python. You can use the pickle operation to serialize your machine learning algorithms and save the serialized format to a file.
+Later you can load this file to deserialize your model and use it to make new predictions.
+### 2.3 Comparative Technologies of Project
+
