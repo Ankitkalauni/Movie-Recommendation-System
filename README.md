@@ -94,4 +94,19 @@ It is a lightweight framework so it is fast.
 Pickle is the standard way of serializing objects in Python. You can use the pickle operation to serialize your machine learning algorithms and save the serialized format to a file.
 Later you can load this file to deserialize your model and use it to make new predictions.
 ### 2.3 Comparative Technologies of Project
+	2.3.1 Django
+Django is a web development framework for Python. This framework offers a standard method for fast and effective website development. It helps you in building and maintaining quality web applications. It enables you to make the development process smooth and time-saving.
+ 
+Flask is a micro-framework offering basic features of the web app. This framework has no dependencies on external libraries. The framework offers extensions for form validation, object-relational mappers, open authentication systems, uploading mechanism, and several other tools.
+ 
+Flask is a good choice if you want a lightweight codebase. The best feature of Django is Robust documentation. Flask framework is suitable for single applications. Django framework allows developers to divide a project into multiple page application
 
+### DataFlow Diagram.
+
+Level 0:
+
+![Image of DataFlow Diagram level 0](https://github.com/Ankitkalauni/Movie-Recommendation-System/blob/main/images/DFD_0_Movie_recommendation_system.png?raw=true)
+
+Level 1:
+
+![Image of DataFlow Diagram level 1](https://github.com/Ankitkalauni/Movie-Recommendation-System/blob/main/images/DFD_1_Movie_recommendation_system.png?raw=true)
