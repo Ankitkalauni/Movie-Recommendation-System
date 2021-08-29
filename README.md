@@ -105,8 +105,8 @@ Flask is a good choice if you want a lightweight codebase. The best feature of D
 
 Level 0:
 
-![Image of DataFlow Diagram level 0](https://github.com/Ankitkalauni/Movie-Recommendation-System/blob/main/images/DFD_0_Movie_recommendation_system.png?raw=true)
+![Image of DataFlow Diagram level 0](https://github.com/Ankitkalauni/Movie-Recommendation-System/blob/main/Images/DFD_0_Movie_recommendation_system.png?raw=true)
 
 Level 1:
 
-![Image of DataFlow Diagram level 1](https://github.com/Ankitkalauni/Movie-Recommendation-System/blob/main/images/DFD_1_Movie_recommendation_system.png?raw=true)
+![Image of DataFlow Diagram level 1](https://github.com/Ankitkalauni/Movie-Recommendation-System/blob/main/Images/DFD_1_Movie_recommendation_system.png?raw=true)
