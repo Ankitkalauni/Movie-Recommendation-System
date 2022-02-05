@@ -127,15 +127,5 @@ $$\text{CosineSimilarity(u, v)} = \frac {u \cdot v} {||u||_2 ||v||_2} = cos(\the
     * If $u$ and $v$ are very similar, their cosine similarity will be close to 1.
     * If they are dissimilar, the cosine similarity will take a smaller value. 
 
-<img src="images/cosine_sim.png" style="width:800px;height:250px;">
+<img src="https://github.com/Ankitkalauni/Movie-Recommendation-System/blob/main/Images/cosine_sim.png?raw=true" style="width:800px;height:250px;">
 <caption><center><font color='purple'><b>Figure 1</b>: The cosine of the angle between two vectors is a measure of their similarity.</font></center></caption>
-
-<a name='ex-1'></a>
-### Exercise 1 - cosine_similarity
-
-Implement the function `cosine_similarity()` to evaluate the similarity between word vectors.
-
-**Reminder**: The norm of $u$ is defined as $ ||u||_2 = \sqrt{\sum_{i=1}^{n} u_i^2}$
-
-#### Additional Hints
-* You may find [np.dot](https://numpy.org/doc/stable/reference/generated/numpy.dot.html), [np.sum](https://numpy.org/doc/stable/reference/generated/numpy.sum.html), or [np.sqrt](https://numpy.org/doc/stable/reference/generated/numpy.sqrt.html) useful depending upon the implementation that you choose.
