@@ -110,3 +110,22 @@ Level 0:
 Level 1:
 
 ![Image of DataFlow Diagram level 1](https://github.com/Ankitkalauni/Movie-Recommendation-System/blob/main/Images/DFD_1_Movie_recommendation_system.png?raw=true)
+
+
+___
+<a name='3'></a>
+## 3 - Cosine Similarity
+
+To measure the similarity between two words, you need a way to measure the degree of similarity between two embedding vectors for the two words. Given two vectors $u$ and $v$, cosine similarity is defined as follows: 
+
+$$\text{CosineSimilarity(u, v)} = \frac {u \cdot v} {||u||_2 ||v||_2} = cos(\theta) \tag{1}$$
+
+* $u \cdot v$ is the dot product (or inner product) of two vectors
+* $||u||_2$ is the norm (or length) of the vector $u$
+* $\theta$ is the angle between $u$ and $v$. 
+* The cosine similarity depends on the angle between $u$ and $v$. 
+    * If $u$ and $v$ are very similar, their cosine similarity will be close to 1.
+    * If they are dissimilar, the cosine similarity will take a smaller value. 
+
+<img src="https://github.com/Ankitkalauni/Movie-Recommendation-System/blob/main/Images/cosine_sim.png?raw=true" style="width:800px;height:250px;">
+<caption><center><font color='purple'><b>Figure 1</b>: The cosine of the angle between two vectors is a measure of their similarity.</font></center></caption>
